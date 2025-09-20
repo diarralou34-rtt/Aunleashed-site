@@ -1,0 +1,52 @@
+/* Style global */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial Black", sans-serif;
+    background: #111;
+    color: white;
+    text-align: center;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    background: #000;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+/* Section logos */
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 50px auto;
+}
+
+/* Logos */
+.logo-container img {
+    max-width: 400px;
+    width: 80%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.8);
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background: #000;
+    font-size: 0.9em;
+    opacity: 0.8;
+}
